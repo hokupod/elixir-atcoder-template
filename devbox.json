@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "elixir@latest",
+    "online-judge-tools@latest",
+    "elixir-ls@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "npx acc config"
+    ],
+    "scripts": {
+      "configure-acc": [
+        "npx acc config default-task-choice all",
+        "npx acc config default-test-dirname-format test",
+        "cp -r template `npx acc config-dir`/elixir",
+        "npx acc config default-template elixir"
+      ]
+    }
+  }
+}

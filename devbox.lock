@@ -1,0 +1,184 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "darwin.apple_sdk.frameworks.CoreServices": {
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3?narHash=sha256-N4cp0asTsJCnRMFZ%2Fk19V9akkxb7J%2FopG%2BK%2BjU57JGc%3D#darwin.apple_sdk.frameworks.CoreServices",
+      "source": "nixpkg",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "path": "/nix/store/jcsc5n97cwxy9qd6mj4gpn4d3f5rvg9y-CoreServices-11.0",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "elixir-ls@latest": {
+      "last_modified": "2024-12-27T03:08:00Z",
+      "resolved": "github:NixOS/nixpkgs/7cc0bff31a3a705d3ac4fdceb030a17239412210#elixir-ls",
+      "source": "devbox-search",
+      "version": "0.25.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ichp670bk1hvy0024g5pg7sisskdm89g-elixir-ls-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ichp670bk1hvy0024g5pg7sisskdm89g-elixir-ls-0.25.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w4nxdb7j9si5vah7mvs494g580x67dz2-elixir-ls-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w4nxdb7j9si5vah7mvs494g580x67dz2-elixir-ls-0.25.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zmprrz19icpw7432rla947xmj3kv4a7r-elixir-ls-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zmprrz19icpw7432rla947xmj3kv4a7r-elixir-ls-0.25.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mbzwyakcjcjjdxs2vscakvqsxybbx56a-elixir-ls-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mbzwyakcjcjjdxs2vscakvqsxybbx56a-elixir-ls-0.25.0"
+        }
+      }
+    },
+    "elixir@latest": {
+      "last_modified": "2024-12-27T03:08:00Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/7cc0bff31a3a705d3ac4fdceb030a17239412210#elixir",
+      "source": "devbox-search",
+      "version": "1.18.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hdd9x34p0gplcl1bramq80lqi76xrd87-elixir-1.18.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hdd9x34p0gplcl1bramq80lqi76xrd87-elixir-1.18.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a4g29icpil9b1hsniqspz5k110h4df8v-elixir-1.18.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a4g29icpil9b1hsniqspz5k110h4df8v-elixir-1.18.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b3h6f36zd4gjivb76lvvs6a9bi1mq9q8-elixir-1.18.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b3h6f36zd4gjivb76lvvs6a9bi1mq9q8-elixir-1.18.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3zd200bq28mv3pdbii7rijzmb0gmhhs3-elixir-1.18.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3zd200bq28mv3pdbii7rijzmb0gmhhs3-elixir-1.18.1"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3?lastModified=1747426788&narHash=sha256-N4cp0asTsJCnRMFZ%2Fk19V9akkxb7J%2FopG%2BK%2BjU57JGc%3D"
+    },
+    "online-judge-tools@latest": {
+      "last_modified": "2025-05-12T14:38:58Z",
+      "resolved": "github:NixOS/nixpkgs/eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1#online-judge-tools",
+      "source": "devbox-search",
+      "version": "12.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l5ninknzwjj2yqr53sd3abgqm6l37l8y-python3.12-online-judge-tools-12.0.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/zv1rw8ppslc5jdgbdwb7010gmj886bzz-python3.12-online-judge-tools-12.0.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/l5ninknzwjj2yqr53sd3abgqm6l37l8y-python3.12-online-judge-tools-12.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/61i01yj1p6d5gwff4550vaqd0nnhf6kj-python3.12-online-judge-tools-12.0.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/v5zhnanzvd3agsr9vbwg599fvfl0hxp5-python3.12-online-judge-tools-12.0.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/61i01yj1p6d5gwff4550vaqd0nnhf6kj-python3.12-online-judge-tools-12.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m18f4jzyc16vmsh5xk38c8y8kfbmrmwk-python3.12-online-judge-tools-12.0.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/8a8rz2py32pwfhwl2ax7qr3hicm9g98y-python3.12-online-judge-tools-12.0.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/m18f4jzyc16vmsh5xk38c8y8kfbmrmwk-python3.12-online-judge-tools-12.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jr55ak450av026wmfd6cr5s5znm3y0wg-python3.12-online-judge-tools-12.0.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/1i0ga63bwa6hqdmgiwykk47q81xghx37-python3.12-online-judge-tools-12.0.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/jr55ak450av026wmfd6cr5s5znm3y0wg-python3.12-online-judge-tools-12.0.0"
+        }
+      }
+    }
+  }
+}
