@@ -84,6 +84,8 @@ oj submit --help
 *   `devbox.json`: Defines the development environment using devbox.
 *   `devbox.lock`: Locks the package versions for reproducible environments.
 *   `.gitignore`: Specifies intentionally untracked files that Git should ignore.
+*   `package.json`: Defines Node.js package dependencies (e.g., for `atcoder-cli`).
+*   `package-lock.json`: Records the exact versions of Node.js package dependencies.
 *   `template/`: Contains the template files for `acc new`.
     *   `template/template.json`: Configuration for `acc`.
     *   `template/main.exs`: The Elixir template file.

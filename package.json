@@ -1,0 +1,18 @@
+{
+  "name": "elixir-atcoder-template",
+  "version": "1.0.0",
+  "description": "This is a template for competitive programming in Elixir using devbox and online-judge-tools. This template is primarily intended for using Elixir for competitive programming on AtCoder.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokupod/elixir-atcoder-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hokupod/elixir-atcoder-template/issues"
+  },
+  "homepage": "https://github.com/hokupod/elixir-atcoder-template#readme",
+  "dependencies": {
+    "atcoder-cli": "^2.2.0"
+  }
+}

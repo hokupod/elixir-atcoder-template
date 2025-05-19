@@ -3,4 +3,6 @@
 !README.md
 !devbox.json
 !devbox.lock
+!package.json
+!package-lock.json
 !template/
